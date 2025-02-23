@@ -47,10 +47,12 @@ SPEED = 1.0  # Max speed in m/s
 HEIGHT = 1.0  # Height in meters
 DIM = 2.0
 PATH = [
-    [-DIM, DIM, HEIGHT],
-    [-DIM, -DIM, HEIGHT],
-    [DIM, -DIM, HEIGHT],
-    [DIM, DIM, HEIGHT]
+    [2.0, 0.0, HEIGHT],
+    [1.0, 1.73, HEIGHT],
+    [-1.0, 1.73, HEIGHT],
+    [-2.0, 0.0, HEIGHT],
+    [-1.0, -1.73, HEIGHT],
+    [1.0, -1.73, HEIGHT]
 ]
 LAND_SPEED = 0.5  # Max speed in m/s
 
